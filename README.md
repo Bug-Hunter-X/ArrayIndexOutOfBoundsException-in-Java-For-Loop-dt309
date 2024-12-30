@@ -1,0 +1,1 @@
+This repository contains a simple Java program that demonstrates an example of an ArrayIndexOutOfBoundsException. The bug is in the first for loop, where the loop condition allows the index 'i' to reach the value 5, which is outside the valid index range of 0-4 for an array of size 5. The solution shows how to fix the bug by changing the loop condition to i < arr.length.
